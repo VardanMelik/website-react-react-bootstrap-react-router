@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import NoMatch from './components/NoMatch'
 import Layout from './components/Layout'
 import NavigationBar from './components/NavigationBar'
+import Jumbotron from './components/Jumbotron'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Layout>
         <Router>
         <NavigationBar />
+        <Jumbotron />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
